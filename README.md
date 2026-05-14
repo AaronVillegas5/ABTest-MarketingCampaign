@@ -30,14 +30,14 @@ two-proportion z-test, and confidence interval estimation.
 ---
 
 ## Requirements
+```
 pip install pandas numpy statsmodels jupyter
+```
 
 ## Project Structure
 ```
 ├── 📁 data
-│   ├── 📁 old data
-│   │   ├── 📄 old_ab.csv
-│   │   └── 📄 old_ecommerce_conversion.csv
+│
 │   ├── 🐍 data.py
 │   └── 📄 marketing_AB.csv
 ├── 📄 AB_Testing.ipynb
